@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> should render and match the snapshot when sidebar is closed 1`] = `
+<aside
+  className="lg:flex block lg:relative fixed inset-y-0 left-0 z-30 w-44 overflow-y-auto transition duration-300 ease-out transform translate-x-0 lg:translate-x-0 lg:inset-0 shadow-right shadow-md bg-light-mode dark:bg-dark-mode ease-in -translate-x-full "
+>
+  <SidebarContent />
+</aside>
+`;
+
+exports[`<Sidebar /> should render and match the snapshot when sidebar is open 1`] = `
+<aside
+  className="lg:flex block lg:relative fixed inset-y-0 left-0 z-30 w-44 overflow-y-auto transition duration-300 ease-out transform translate-x-0 lg:translate-x-0 lg:inset-0 shadow-right shadow-md bg-light-mode dark:bg-dark-mode ease-out translate-x-0 "
+>
+  <SidebarContent />
+</aside>
+`;

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UpNext /> should render and match the snapshot 1`] = `
+<div
+  className="col-span-1"
+>
+  <SectionTitle>
+    ▶️ Up Next
+  </SectionTitle>
+  <div
+    className="flex flex-wrap mb-4"
+  >
+    <ul
+      className="flex flex-col w-full "
+    >
+      <li
+        className="flex flex-row mb-2 border-gray-400"
+      >
+        <div
+          className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+        >
+          <div
+            className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+          >
+            <SvgIcon
+              icon="PlayListVideIcon"
+            />
+          </div>
+          <div
+            className="flex-1"
+          >
+            <div
+              className="font-semibold text-gray-600 text-md dark:text-gray-400"
+            >
+              sample title
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul
+      className="flex flex-col w-full "
+    >
+      <li
+        className="flex flex-row mb-2 border-gray-400"
+      >
+        <div
+          className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+        >
+          <div
+            className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+          >
+            <SvgIcon
+              icon="PlayListVideIcon"
+            />
+          </div>
+          <div
+            className="flex-1"
+          >
+            <div
+              className="font-semibold text-gray-600 text-md dark:text-gray-400"
+            >
+              sample title
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul
+      className="flex flex-col w-full "
+    >
+      <li
+        className="flex flex-row mb-2 border-gray-400"
+      >
+        <div
+          className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+        >
+          <div
+            className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+          >
+            <SvgIcon
+              icon="PlayListVideIcon"
+            />
+          </div>
+          <div
+            className="flex-1"
+          >
+            <div
+              className="font-semibold text-gray-600 text-md dark:text-gray-400"
+            >
+              sample title
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul
+      className="flex flex-col w-full "
+    >
+      <li
+        className="flex flex-row mb-2 border-gray-400"
+      >
+        <div
+          className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+        >
+          <div
+            className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+          >
+            <SvgIcon
+              icon="PlayListVideIcon"
+            />
+          </div>
+          <div
+            className="flex-1"
+          >
+            <div
+              className="font-semibold text-gray-600 text-md dark:text-gray-400"
+            >
+              sample title
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

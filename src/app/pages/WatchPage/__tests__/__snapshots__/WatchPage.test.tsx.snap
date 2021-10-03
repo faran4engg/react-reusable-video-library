@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WatchPage /> should render and match the snapshot 1`] = `
+Array [
+  "<Helmet />",
+  <div
+    className="grid grid-cols-1 mt-2 md:grid-cols-3 md:gap-4"
+  >
+    <div
+      className="col-span-2"
+    >
+      <div
+        className="overflow-hidden bg-transparent rounded-lg shadow-lg cursor-pointer"
+      >
+        <div
+          className="overflow-hidden bg-transparent rounded-lg shadow-lg cursor-pointer"
+          onClick={[Function]}
+        >
+          <div
+            className="aspect-ratio-box"
+          >
+            <div
+              className="react-player"
+              style={
+                Object {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+          <div
+            className="flex flex-col justify-center items-center capitalize "
+          >
+            <div
+              className="overflow-hidden w-full shadow-lg bg-light-mode dark:bg-dark-mode dark:text-dark-mode-text"
+            >
+              <h3
+                className="py-1 px-3 font-bold tracking-wide text-center truncate"
+              >
+                Who is Muhammad ﷺ ?
+              </h3>
+              <div
+                className="flex justify-between items-center py-1 px-3 pb-2 "
+              >
+                <span
+                  className="text-xs"
+                >
+                  <img
+                    alt="views"
+                    src="https://visitor-badge.glitch.me/badge?page_id=/watch/video-id"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-span-1"
+    >
+      <h2
+        className="my-2 text-lg font-semibold text-gray-500 dark:text-gray-300"
+      >
+        ▶️ Up Next
+      </h2>
+      <div
+        className="flex flex-wrap mb-4"
+      >
+        <ul
+          className="flex flex-col w-full "
+        >
+          <li
+            className="flex flex-row mb-2 border-gray-400"
+          >
+            <div
+              className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+            >
+              <div
+                className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+              >
+                <svg
+                  aria-hidden="true"
+                >
+                  playlist-video.svg
+                </svg>
+              </div>
+              <div
+                className="flex-1"
+              >
+                <div
+                  className="font-semibold text-gray-600 text-md dark:text-gray-400"
+                >
+                  sample title
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul
+          className="flex flex-col w-full "
+        >
+          <li
+            className="flex flex-row mb-2 border-gray-400"
+          >
+            <div
+              className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+            >
+              <div
+                className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+              >
+                <svg
+                  aria-hidden="true"
+                >
+                  playlist-video.svg
+                </svg>
+              </div>
+              <div
+                className="flex-1"
+              >
+                <div
+                  className="font-semibold text-gray-600 text-md dark:text-gray-400"
+                >
+                  sample title
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul
+          className="flex flex-col w-full "
+        >
+          <li
+            className="flex flex-row mb-2 border-gray-400"
+          >
+            <div
+              className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+            >
+              <div
+                className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+              >
+                <svg
+                  aria-hidden="true"
+                >
+                  playlist-video.svg
+                </svg>
+              </div>
+              <div
+                className="flex-1"
+              >
+                <div
+                  className="font-semibold text-gray-600 text-md dark:text-gray-400"
+                >
+                  sample title
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul
+          className="flex flex-col w-full "
+        >
+          <li
+            className="flex flex-row mb-2 border-gray-400"
+          >
+            <div
+              className="flex flex-1 items-center p-4 rounded-md shadow-md transition duration-500 ease-in-out transform cursor-pointer select-none  hover:-translate-x-1 bg-light-mode dark:bg-dark-mode"
+            >
+              <div
+                className="flex flex-col justify-center items-center mr-2 w-10 h-10 rounded-md"
+              >
+                <svg
+                  aria-hidden="true"
+                >
+                  playlist-video.svg
+                </svg>
+              </div>
+              <div
+                className="flex-1"
+              >
+                <div
+                  className="font-semibold text-gray-600 text-md dark:text-gray-400"
+                >
+                  sample title
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+]
+`;

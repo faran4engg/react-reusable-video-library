@@ -1,0 +1,72 @@
+.rnc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 255px;
+  background-color: #000;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.rnc-row {
+  display: flex;
+  align-items: stretch;
+  margin: 0 0 10px 0;
+}
+
+.rnc-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 0 10px;
+}
+
+.rnc-canvas {
+  box-sizing: border-box;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.rnc-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0;
+  width: 25px;
+  height: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.rnc-button svg {
+  width: 1em;
+  height: 1em;
+
+  fill: currentColor;
+}
+
+.rnc-input {
+  border: none;
+  padding: 0.2rem 0.7rem;
+  color: #000;
+  border-radius: 4px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

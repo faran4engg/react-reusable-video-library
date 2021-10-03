@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFoundPage /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <Helmet>
+    <title>
+      Oops ! Error
+    </title>
+    <meta
+      content="not found page"
+      name="description"
+    />
+  </Helmet>
+  <div
+    className="flex flex-col items-center"
+  >
+    <SvgIcon
+      className="mt-8 w-16 h-16 text-theme-color-light dark:text-theme-color-dark"
+      icon="Error404Icon"
+    />
+    <h1
+      className="text-6xl font-semibold text-gray-700 dark:text-gray-200"
+    >
+      404
+    </h1>
+    <p
+      className="my-4 text-gray-700 dark:text-gray-300"
+    >
+      Page not found. Check the address or
+    </p>
+    <Link
+      className="animate-bounce text-theme-color-light dark:text-theme-color-dark hover:underline"
+      to="/"
+    >
+      Go to Home page
+    </Link>
+  </div>
+</React.Fragment>
+`;

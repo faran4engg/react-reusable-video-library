@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render and match the snapshot 1`] = `
+<header
+  className="z-40 py-2 shadow-md lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode"
+>
+  <div
+    className="container flex justify-between items-center px-3 mx-auto h-full text-theme-color-light dark:text-theme-color-dark"
+  >
+    <button
+      aria-label="Menu"
+      className="p-1 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-green-200"
+      onClick={[MockFunction]}
+    >
+      <SvgIcon
+        className="w-6 h-6"
+        icon="MenuIcon"
+      />
+    </button>
+    <div
+      className="flex flex-1 justify-center h-10"
+    >
+      <UNDEFINED
+        className="block lg:hidden"
+        to="/home"
+      >
+        <img
+          alt="Islaamify360-Logo"
+          className="h-10 cursor-pointer lg:ml-0"
+          height="40"
+          loading="lazy"
+          src="logo.png"
+          width="133"
+        />
+      </UNDEFINED>
+    </div>
+    <ul
+      className="flex flex-shrink-0 items-center space-x-6"
+    >
+      <li
+        className="relative text-theme-color-light dark:text-theme-color-dark"
+      >
+        <button
+          aria-haspopup="true"
+          aria-label="Notifications"
+          className="relative align-middle rounded-md focus:outline-none"
+          onClick={[Function]}
+        >
+          <span
+            className="mx-auto w-5 h-5 animate-spin"
+          >
+            🌚
+          </span>
+          <span
+            className="inline-block absolute top-0 right-0 w-3 h-3 bg-red-600 rounded-full border-2 border-white animate-ping transform translate-x-1 -translate-y-1 dark:border-gray-800"
+          />
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
+`;
+
+exports[`<Header /> toggleDark should set dark mode when clicked 1`] = `
+<header
+  className="z-40 py-2 shadow-md lg:p-4 lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode"
+>
+  <div
+    className="container flex justify-between items-center px-6 mx-auto h-full  text-theme-color-light dark:text-theme-color-dark"
+  >
+    <button
+      aria-label="Menu"
+      className="p-1 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-green-200"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="w-6 h-6"
+      >
+        menu.svg
+      </svg>
+    </button>
+    <img
+      alt="TeachIslam-Logo"
+      className="h-6 cursor-pointer"
+      onClick={[Function]}
+      src="Teaach-Islam.png"
+    />
+    <ul
+      className="flex flex-shrink-0 items-center space-x-6"
+    >
+      <li
+        className="relative text-theme-color-light dark:text-theme-color-dark"
+      >
+        <button
+          aria-haspopup="true"
+          aria-label="Notifications"
+          className="relative align-middle rounded-md focus:outline-none"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="w-5 h-5"
+          >
+            sun.svg
+          </svg>
+          <span
+            aria-hidden="true"
+            className="inline-block absolute top-0 right-0 w-3 h-3 bg-red-600 rounded-full border-2 border-white animate-ping transform translate-x-1 -translate-y-1 dark:border-gray-800"
+          />
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
+`;
+
+exports[`<Header /> toggleDark should set light mode when clicked 1`] = `
+<header
+  className="z-40 py-2 shadow-md lg:p-4 lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode"
+>
+  <div
+    className="container flex justify-between items-center px-6 mx-auto h-full  text-theme-color-light dark:text-theme-color-dark"
+  >
+    <button
+      aria-label="Menu"
+      className="p-1 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-green-200"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="w-6 h-6"
+      >
+        menu.svg
+      </svg>
+    </button>
+    <img
+      alt="TeachIslam-Logo"
+      className="h-6 cursor-pointer"
+      onClick={[Function]}
+      src="Teaach-Islam.png"
+    />
+    <ul
+      className="flex flex-shrink-0 items-center space-x-6"
+    >
+      <li
+        className="relative text-theme-color-light dark:text-theme-color-dark"
+      >
+        <button
+          aria-haspopup="true"
+          aria-label="Notifications"
+          className="relative align-middle rounded-md focus:outline-none"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="w-5 h-5"
+          >
+            moon.svg
+          </svg>
+          <span
+            aria-hidden="true"
+            className="inline-block absolute top-0 right-0 w-3 h-3 bg-red-600 rounded-full border-2 border-white animate-ping transform translate-x-1 -translate-y-1 dark:border-gray-800"
+          />
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
+`;

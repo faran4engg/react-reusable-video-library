@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UploadPage /> should render Google Login button 1`] = `
+Array [
+  "<Helmet />",
+  <div
+    className="flex justify-center items-center"
+  >
+    <div
+      className="w-full md:w-3/4 lg:w2/4 bg-light-mode dark:bg-dark-mode text-pink-600 font-semibold rounded-lg shadow-lg p-4"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, labore suscipit minus iusto voluptas maxime ea sed dolor rem eaque quibusdam harum distinctio tenetur quasi amet dolores laborum blanditiis possimus?
+      <div
+        className="mt-4"
+      >
+        <button
+          className="inline-flex justify-center items-center p-2 w-full font-medium leading-5 align-bottom rounded-lg shadow-md cursor-pointer  focus:outline-none dark:bg-dark-mode-content-bg hover:bg-gray-100 dark:hover:bg-gray-900"
+          onClick={[Function]}
+          type="submit"
+        >
+          <span
+            className="text-gray-700 dark:text-dark-mode-text"
+          >
+            Login with
+          </span>
+          <span>
+             
+          </span>
+          <span>
+            <svg>
+              google.svg
+            </svg>
+          </span>
+          <span>
+             
+          </span>
+          <span
+            className="text-gray-700 dark:text-dark-mode-text"
+          >
+            to Upload
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

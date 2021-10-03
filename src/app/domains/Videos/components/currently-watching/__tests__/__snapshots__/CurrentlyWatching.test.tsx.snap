@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrentlyWatching /> should render and match the snapshot 1`] = `
+<div
+  className="col-span-2"
+>
+  <div
+    className="h-auto overflow-hidden bg-transparent rounded-lg shadow-lg cursor-pointer "
+  >
+    <VideoWatchSkeleton />
+  </div>
+</div>
+`;

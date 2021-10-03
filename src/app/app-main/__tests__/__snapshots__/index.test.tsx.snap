@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<QueryClientProvider
+  client={
+    QueryClient {
+      "defaultOptions": Object {},
+      "mutationCache": MutationCache {
+        "config": Object {},
+        "listeners": Array [],
+        "mutationId": 0,
+        "mutations": Array [],
+      },
+      "mutationDefaults": Array [],
+      "queryCache": QueryCache {
+        "config": Object {},
+        "listeners": Array [],
+        "queries": Array [],
+        "queriesMap": Object {},
+      },
+      "queryDefaults": Array [],
+    }
+  }
+>
+  <BrowserRouter>
+    <Route
+      component={[Function]}
+      path="/"
+    />
+  </BrowserRouter>
+  <ReactQueryDevtools
+    initialIsOpen={false}
+  />
+</QueryClientProvider>
+`;

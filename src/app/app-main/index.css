@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+/* total width */
+::-webkit-scrollbar {
+  display: none;
+  background-color: #fff;
+  width: 12px;
+}
+
+@media screen and (min-width: 640px) {
+  ::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.dark ::-webkit-scrollbar-track {
+  background-color: #121317;
+}
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 14px;
+  border: 5px solid #fff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+  border: 4px solid #f4f4f4;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 14px;
+  border: 5px solid #121317;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+  border: 4px solid #121317;
+}
+
+.rhap_container {
+  background-color: inherit !important;
+}
+.dark .rhap_time {
+  color: white;
+}
+
+.rhap_progress-indicator,
+.rhap_volume-indicator {
+  background: #a78bfa !important;
+}
+.rhap_volume-filled,
+.rhap_progress-filled {
+  background-color: #a78bfa !important;
+}
+.rhap_time {
+  font-size: 10px !important;
+}
+.rhap_progress-indicator {
+  width: 16px !important;
+  height: 16px !important;
+  margin-left: -5px !important;
+  top: -5px !important;
+}
+.rhap_header {
+  text-align: center;
+  font-size: 14px;
+}

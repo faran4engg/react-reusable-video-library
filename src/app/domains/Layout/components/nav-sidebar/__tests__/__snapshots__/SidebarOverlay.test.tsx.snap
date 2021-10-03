@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarOverlay  /> should render and match the snapshot when side is closed 1`] = `
+<div
+  className="fixed inset-0 z-20 block bg-black lg:hidden transition-opacity opacity-50 hidden "
+  onClick={[Function]}
+/>
+`;
+
+exports[`<SidebarOverlay  /> should render and match the snapshot when side is open 1`] = `
+<div
+  className="fixed inset-0 z-20 block bg-black lg:hidden transition-opacity opacity-50 block "
+  onClick={[Function]}
+/>
+`;

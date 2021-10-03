@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavSidebar /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <SidebarOverlay
+    handleIsSidebarOpen={[MockFunction]}
+    isSidebarOpen={false}
+  />
+  <Sidebar
+    handleIsSidebarOpen={[MockFunction]}
+    isSidebarOpen={false}
+  />
+</React.Fragment>
+`;

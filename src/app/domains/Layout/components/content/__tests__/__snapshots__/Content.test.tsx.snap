@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> should render and match the snapshot 1`] = `
+<main
+  className="h-full overflow-y-auto mt-3"
+>
+  <div
+    className="container grid px-4 lg:px-4 mx-auto"
+  >
+    [Function]
+  </div>
+</main>
+`;

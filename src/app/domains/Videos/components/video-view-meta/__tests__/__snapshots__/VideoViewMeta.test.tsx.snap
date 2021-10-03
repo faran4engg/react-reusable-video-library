@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoViewMeta /> should render and match the snapshot w/o watch button 1`] = `
+<div
+  className="flex items-center justify-between px-3 py-1 pb-2 "
+>
+  <span
+    className="text-xs"
+  >
+    <img
+      alt="views"
+      height="100%"
+      loading="lazy"
+      src="https://visitor-badge.glitch.me/badge?page_id=/path/id"
+      width="90%"
+    />
+  </span>
+  <SocialShare
+    facebook={true}
+    telegram={true}
+    title="*🎥 undefined* 
+"
+    twitter={true}
+    url="http://localhost/"
+  />
+</div>
+`;
+
+exports[`<VideoViewMeta /> should render and match the snapshot with watch button 1`] = `
+<div
+  className="flex items-center justify-between px-3 py-1 pb-2 "
+>
+  <span
+    className="text-xs"
+  >
+    <img
+      alt="views"
+      height="100%"
+      loading="lazy"
+      src="https://visitor-badge.glitch.me/badge?page_id=/path/id"
+      width="90%"
+    />
+  </span>
+  <button
+    className="px-2 py-1 text-xs font-semibold rounded bg-light-mode-content-bg dark:bg-dark-mode-content-bg"
+  >
+    ▶ Watch
+  </button>
+</div>
+`;

@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoPlayer /> should render and VideoPlayer should be clickable 1`] = `
+<div
+  className="aspect-ratio-box"
+>
+  <ReactPlayer
+    className="react-player"
+    config={
+      Object {
+        "dailymotion": Object {
+          "params": Object {
+            "queue-enable": false,
+            "sharing-enable": false,
+            "ui-logo": false,
+            "ui-start-screen-info": false,
+          },
+        },
+        "youtube": Object {
+          "playerVars": Object {
+            "modestbranding": 1,
+            "rel": 0,
+          },
+        },
+      }
+    }
+    controls={true}
+    height="100%"
+    light={false}
+    loop={false}
+    muted={false}
+    onBuffer={[Function]}
+    onBufferEnd={[Function]}
+    onDisablePIP={[Function]}
+    onDuration={[Function]}
+    onEnablePIP={[Function]}
+    onEnded={[Function]}
+    onError={[Function]}
+    onPause={[Function]}
+    onPlay={[Function]}
+    onProgress={[Function]}
+    onReady={[Function]}
+    onSeek={[Function]}
+    onStart={[Function]}
+    pip={false}
+    playIcon={
+      <span>
+         
+      </span>
+    }
+    playbackRate={1}
+    playing={false}
+    playsinline={false}
+    progressInterval={1000}
+    stopOnUnmount={true}
+    style={Object {}}
+    url="yt.com/asd"
+    volume={null}
+    width="100%"
+    wrapper="div"
+  />
+</div>
+`;
+
+exports[`<VideoPlayer /> should render and VideoPlayer should not be clickable 1`] = `
+<div
+  className="aspect-ratio-box"
+>
+  <div
+    className="absolute top-0 left-0 z-10 w-full h-full cursor-pointer"
+  />
+  <ReactPlayer
+    className="react-player"
+    config={
+      Object {
+        "dailymotion": Object {
+          "params": Object {
+            "queue-enable": false,
+            "sharing-enable": false,
+            "ui-logo": false,
+            "ui-start-screen-info": false,
+          },
+        },
+        "youtube": Object {
+          "playerVars": Object {
+            "modestbranding": 1,
+            "rel": 0,
+          },
+        },
+      }
+    }
+    controls={true}
+    height="100%"
+    light={true}
+    loop={false}
+    muted={false}
+    onBuffer={[Function]}
+    onBufferEnd={[Function]}
+    onDisablePIP={[Function]}
+    onDuration={[Function]}
+    onEnablePIP={[Function]}
+    onEnded={[Function]}
+    onError={[Function]}
+    onPause={[Function]}
+    onPlay={[Function]}
+    onProgress={[Function]}
+    onReady={[Function]}
+    onSeek={[Function]}
+    onStart={[Function]}
+    pip={false}
+    playIcon={
+      <span>
+         
+      </span>
+    }
+    playbackRate={1}
+    playing={false}
+    playsinline={false}
+    progressInterval={1000}
+    stopOnUnmount={true}
+    style={Object {}}
+    url="yt.com/asd"
+    volume={null}
+    width="100%"
+    wrapper="div"
+  />
+</div>
+`;

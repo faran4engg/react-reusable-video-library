@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoDetails /> should render and match the snapshot 1`] = `
+<div
+  className="flex flex-col items-center justify-center capitalize cursor-default "
+>
+  <div
+    className="w-full overflow-hidden shadow-lg bg-light-mode dark:bg-dark-mode"
+  >
+    <h3
+      className="px-3 py-1 font-semibold tracking-wide text-center truncate"
+    >
+      title
+    </h3>
+    <React.Fragment>
+      <p
+        className="px-3 py-1 my-1 text-xs tracking-wide text-left line-clamp-2 hover:line-clamp-none"
+      >
+        📝 
+        description
+      </p>
+      <div
+        className="flex items-center justify-between px-3 py-1 pb-2 "
+      >
+        <span
+          className="px-2 py-1 text-xs font-semibold bg-gray-200 rounded cursor-pointer dark:bg-gray-900"
+          onClick={[Function]}
+        >
+          📌   
+          category
+        </span>
+        <span
+          className="px-2 py-1 text-xs font-semibold bg-gray-200 rounded cursor-pointer dark:bg-gray-900"
+          onClick={[Function]}
+        >
+          🔊   
+          NAK
+        </span>
+      </div>
+      <div
+        className="px-3 py-1 text-center"
+      >
+        <BadgePills
+          name="tagsA"
+          onClick={[Function]}
+        />
+        <BadgePills
+          name="tagB"
+          onClick={[Function]}
+        />
+      </div>
+    </React.Fragment>
+    <Memo(VideoViewMeta)
+      showWatchBtn={true}
+      title="title"
+      videoViewUrl="/path/id"
+    />
+  </div>
+</div>
+`;

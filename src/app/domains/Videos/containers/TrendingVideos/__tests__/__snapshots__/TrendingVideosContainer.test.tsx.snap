@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TrendingVideosContainer /> should render and match the snapshot successfully 1`] = `
+<div
+  className="text-gray-600 dark:text-gray-400"
+>
+  <div />
+</div>
+`;
+
+exports[`<TrendingVideosContainer /> should render and match the snapshot when error 1`] = `
+<div
+  className="text-gray-600 dark:text-gray-400"
+>
+  <div />
+</div>
+`;
+
+exports[`<TrendingVideosContainer /> should render and match the snapshot when loading 1`] = `
+<div
+  className="text-gray-600 dark:text-gray-400"
+>
+  <div />
+</div>
+`;

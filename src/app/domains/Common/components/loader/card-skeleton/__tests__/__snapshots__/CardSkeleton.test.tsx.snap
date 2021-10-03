@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardSkeleton should render 1`] = `
+<div
+  className="p-4 mx-auto w-full h-28 rounded-md shadow-md dark:bg-dark-mode bg-light-mode"
+>
+  <SkeletonBody />
+</div>
+`;
+
+exports[`CardSkeleton should render when noOfCards is provided 1`] = `
+Array [
+  <div
+    className="p-4 mx-auto w-full h-28 rounded-md shadow-md dark:bg-dark-mode bg-light-mode"
+  >
+    <SkeletonBody />
+  </div>,
+  <div
+    className="p-4 mx-auto w-full h-28 rounded-md shadow-md dark:bg-dark-mode bg-light-mode"
+  >
+    <SkeletonBody />
+  </div>,
+  <div
+    className="p-4 mx-auto w-full h-28 rounded-md shadow-md dark:bg-dark-mode bg-light-mode"
+  >
+    <SkeletonBody />
+  </div>,
+]
+`;

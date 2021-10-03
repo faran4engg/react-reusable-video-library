@@ -1,0 +1,390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarContent /> should render and match the snapshot 1`] = `
+<div
+  className="py-4 pt-0 text-gray-700 dark:text-gray-400"
+>
+  <ul
+    className="mt-10 lg:mt-0 "
+  >
+    <li
+      className="relative px-6 py-3 "
+    >
+      <NavLink
+        className="hidden lg:block"
+        to="/home"
+      >
+        <img
+          alt="Islaamify360-Logo"
+          className="h-10 ml-8 cursor-pointer lg:ml-0"
+          height="40"
+          loading="lazy"
+          src="logo.png"
+          width="128"
+        />
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/home"
+      >
+        <Route
+          exact={true}
+          path="/home"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="TrendingIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Trending
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/audios"
+      >
+        <Route
+          exact={false}
+          path="/audios"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="AudiosIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Audios
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search/tags/urdu"
+      >
+        <Route
+          exact={true}
+          path="/search/tags/urdu"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="UrduHindiIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          اردو / हिन्दी 
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search/tags/english"
+      >
+        <Route
+          exact={true}
+          path="/search/tags/english"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="EnglishIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          English
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search"
+      >
+        <Route
+          exact={true}
+          path="/search"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="SearchVideoIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Search
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 text-center"
+    >
+      ➖
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search/speakerNames/mbc"
+      >
+        <Route
+          exact={true}
+          path="/search/speakerNames/mbc"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="LoveIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Omar Series
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search/categories/recitation"
+      >
+        <Route
+          exact={true}
+          path="/search/categories/recitation"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="SpeakerRecitationIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Recitation
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search/categories/prophet-series"
+      >
+        <Route
+          exact={true}
+          path="/search/categories/prophet-series"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="BabyBoyIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Animation
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search/tags/tafseer"
+      >
+        <Route
+          exact={true}
+          path="/search/tags/tafseer"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="QuranIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Tafseer
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/search/categories/inspiration-series-urdu"
+      >
+        <Route
+          exact={true}
+          path="/search/categories/inspiration-series-urdu"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="InspirationIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Inspiration
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 text-center"
+    >
+      ➖
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/upload"
+      >
+        <Route
+          exact={true}
+          path="/upload"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="UploadIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Upload Video
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/about"
+      >
+        <Route
+          exact={true}
+          path="/about"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="InfoIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          About Us
+        </span>
+      </NavLink>
+    </li>
+    <li
+      className="relative px-6 py-2"
+    >
+      <NavLink
+        className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150"
+        exact={true}
+        to="/feedback"
+      >
+        <Route
+          exact={true}
+          path="/feedback"
+        >
+          <span
+            className="absolute inset-y-0 left-0 w-1 bg-purple-700 rounded-tr-lg rounded-br-lg"
+          />
+        </Route>
+        <SvgIcon
+          className="w-5 h-5"
+          icon="FeedbackIcon"
+        />
+        <span
+          className="ml-4"
+        >
+          Feedback
+        </span>
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;

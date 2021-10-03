@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageTitle /> should render and match the snapshot 1`] = `
+<h1
+  className="my-3 font-semibold text-gray-500 text-1xl dark:text-gray-300"
+>
+  This is Page Title
+</h1>
+`;

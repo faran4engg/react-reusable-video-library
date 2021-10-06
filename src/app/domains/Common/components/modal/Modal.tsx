@@ -1,11 +1,6 @@
-import { FC, ReactNode } from 'react';
+import { FC } from 'react';
 import { useHistory } from 'react-router-dom';
-
-interface ModalProps {
-  showModal: (flag: boolean) => void;
-  children: ReactNode;
-  isFeedbackForm?: boolean;
-}
+import { ModalProps } from './types';
 
 const Modal: FC<ModalProps> = ({ showModal, children, isFeedbackForm }) => {
   const history = useHistory();
